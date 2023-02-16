@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 
-#from brain_games.cli import welcome_user
 from random import randint
 import prompt
 
@@ -36,6 +35,7 @@ def is_even():
                 print(f"'yes' is wrong answer ;(. Correct answer was 'no'.Let's try again, {name}!")
                 break
     print(f'Congratulations, {name}')
+
 
 def main():
     welcome_user()
