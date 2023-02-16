@@ -1,5 +1,6 @@
 .venv/
-
+__pycache__/
+*.pyc
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -13,4 +14,3 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-__pycache__/
