@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
 
 
-from brain_games.cli import welcome_user
+#from brain_games.cli import welcome_user
 from random import randint
 import prompt
-def is_name():
+
+
+def welcome_user():
+    print("Welcome to the Brain Games!")
     global name
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
 def is_even():
-    
-    
     count = 0
     while count < 3:
         digit = randint(1, 100)
@@ -37,11 +39,7 @@ def is_even():
 
 def main():
     welcome_user()
-    is_name()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     is_even()
-
-
 
 
 if __name__ == '__main__':
