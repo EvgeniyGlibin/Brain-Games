@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
 
+
 from brain_games.cli import welcome_user
 from brain_games.cli import is_question
 from brain_games.cli import is_answer
 from brain_games.cli import is_correct
-
 from brain_games.cli import congratulate_user
 from brain_games.cli import is_wrong_answer
 from brain_games.cli import try_again_user
 from brain_games.games.even import play_even
 from brain_games.games.even import random_digit
-
-
-#from random import randint
-#import prompt
 
 
 def is_even():
@@ -32,14 +28,12 @@ def is_even():
             try_again_user()
             break
     else:
-        congratulate_user()       
-
+        congratulate_user()
 
 
 def main():
     welcome_user()
     is_even()
-
 
 
 if __name__ == '__main__':
