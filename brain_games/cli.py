@@ -8,12 +8,12 @@ def welcome_user():
     print(f'Hello, {name}!')
 
 
-def is_question():
-    print('Question: ')
+def is_question(condition='question'):
+    print(f'Question: {condition}')
 
 
 def is_answer():
-    print('Your answer: ')
+    return 'Your answer: '
 
 
 def is_correct():
