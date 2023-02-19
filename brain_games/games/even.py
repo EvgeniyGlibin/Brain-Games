@@ -1,5 +1,6 @@
 from random import randint
 
+
 def random_digit():
     global digit
     digit = randint(1, 100)
