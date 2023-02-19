@@ -6,6 +6,7 @@ from brain_games.cli import is_wrong_answer
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
 
+
 def random_digit():
     global digit
     digit = randint(1, 100)
@@ -42,7 +43,6 @@ def main():
     random_digit()
     play_even()
     is_even
-
 
 
 if __name__ == '__main__':
