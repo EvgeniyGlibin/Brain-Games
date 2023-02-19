@@ -7,6 +7,7 @@ def welcome_user():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
 
+
 def is_question():
     print('Question: ')
 
@@ -14,12 +15,14 @@ def is_question():
 def is_answer():
     print('Your answer: ')
 
+
 def is_correct():
     print('Correct!')
 
 
 def congratulate_user():
     print(f'Congratulations, {name}!')
+
 
 def is_wrong_answer(x='no', y='yes'):
     print(f"'{x}' is wrong answer ;(. Correct answer was '{y}'.")
@@ -37,7 +40,6 @@ def main():
     congratulate_user()
     is_wrong_answer()
     try_again_user()
-
 
 
 if __name__ == "__main__":
