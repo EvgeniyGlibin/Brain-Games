@@ -21,6 +21,9 @@ def is_correct():
 def congratulate_user():
     print(f'Congratulations, {name}!')
 
+def is_wrong_answer(x='no', y='yes'):
+    print(f"'{x}' is wrong answer ;(. Correct answer was '{y}'.")
+
 
 def try_again_user():
     print(f"Let's try again, {name}!")
@@ -30,9 +33,11 @@ def main():
     welcome_user()
     is_question()
     is_answer()
+    is_correct()
     congratulate_user()
+    is_wrong_answer()
     try_again_user()
-    is_correct
+
 
 
 if __name__ == "__main__":
