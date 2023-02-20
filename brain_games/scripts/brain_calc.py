@@ -3,11 +3,12 @@
 
 from brain_games.cli import welcome_user
 from brain_games.cli import congratulate_user
+from brain_games.games.calc import is_calc
 
 
 def main():
     welcome_user()
-    print("This is brain-calc")
+    is_calc()
     congratulate_user()
 
 
