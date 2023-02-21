@@ -6,8 +6,11 @@ from brain_games.cli import is_question
 def random_expression():
     first_number = randint(1, 30)
     second_namber = randint(1, 15)
-    random_operation = choices(('+', '-', '*'))
-    print(first_number, random_operation, second_namber)
+    list_arithmetic_operations = [' + ', ' - ', ' * ']
+    arithmetic_operation = list_arithmetic_operations[randint(0, len(list_arithmetic_operations) - 1)]
+    #random_operation = choices(('+', '-', '*'))
+    print(str(first_number) + arithmetic_operation + str(second_namber))
+    #print(type(arithmetic_operation))
 
 
 
