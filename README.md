@@ -8,3 +8,6 @@ https://asciinema.org/a/9y1qdfwymdp584a7gzhpyEAVV
 
 #assciinema of the game "brain-calc"
 https://asciinema.org/a/fNifawQY5gcwO7hfIWmz0qwE7
+
+#assciinema of the game "brain-gcd"
+https://asciinema.org/a/QWb8cSeKu4ZJ4JVHdjAfvzSDg
