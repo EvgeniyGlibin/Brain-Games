@@ -1,21 +1,21 @@
 from random import randint
-from brain_games.cli import is_question
-from brain_games.cli import is_answer
-from brain_games.cli import is_correct
-from brain_games.cli import is_wrong_answer
+from brain_games.cli import ask_question
+from brain_games.cli import enter_response
+from brain_games.cli import confirm_response
+from brain_games.cli import report_an_error
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
 from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
-def is_random():
+def get_random_number():
     digit_random = randint(1, 50)
     return digit_random
 
 
 def arifmetic_progression():
-    first_element = is_random()
-    second_element = is_random()
+    first_element = get_random_number()
+    second_element = get_random_number()
     step_progression = second_element - first_element
     list_of_elements = []
     for _ in range(randint(5, 10)):
@@ -31,13 +31,13 @@ def arifmetic_progression():
 def is_progression():
     print('What number is missing in the progression?')
     for _ in range(NUMBER_OF_ATTEPTS):
-        is_question(arifmetic_progression())
-        print(is_answer(), end='')
+        ask_question(arifmetic_progression())
+        print(enter_response(), end='')
         entered_response = input()
         if entered_response == hidden_element:
-            is_correct()
+            confirm_response()
         else:
-            is_wrong_answer(entered_response, hidden_element)
+            report_an_error(entered_response, hidden_element)
             try_again_user
             break
     else:
