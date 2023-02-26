@@ -11,15 +11,15 @@ def welcome_user():
     print(f'Hello, {name}!')
 
 
-def is_question(condition='question'):
+def ask_question(condition='question'):
     print(f'Question: {condition}')
 
 
-def is_answer():
+def enter_response():
     return 'Your answer: '
 
 
-def is_correct():
+def confirm_response():
     print('Correct!')
 
 
@@ -27,7 +27,7 @@ def congratulate_user():
     print(f'Congratulations, {name}!')
 
 
-def is_wrong_answer(x='no', y='yes'):
+def report_an_error(x='no', y='yes'):
     print(f"'{x}' is wrong answer ;(. Correct answer was '{y}'.")
 
 
@@ -37,11 +37,11 @@ def try_again_user():
 
 def main():
     welcome_user()
-    is_question()
-    is_answer()
-    is_correct()
+    ask_question()
+    enter_response()
+    confirm_response()
     congratulate_user()
-    is_wrong_answer()
+    report_an_error()
     try_again_user()
     NUMBER_OF_ATTEPTS
 
