@@ -5,6 +5,7 @@ from brain_games.cli import is_correct
 from brain_games.cli import is_wrong_answer
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
+from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
 def is_random():
@@ -34,8 +35,7 @@ def is_list(index_list_0=[], index_list_1=[]):
 
 def is_gcd():
     print('Find the greatest common divisor of given numbers.')
-    count = 3
-    while count > 0:
+    for _ in range(NUMBER_OF_ATTEPTS):
         is_question(is_random())
         lst_digit = digit_random.split()
         correct_answer = is_list(lst_digit[0], lst_digit[1])
@@ -43,7 +43,6 @@ def is_gcd():
         entered_response = input()
         if int(entered_response) == correct_answer:
             is_correct()
-            count -= 1
         else:
             is_wrong_answer(entered_response, correct_answer)
             try_again_user()
