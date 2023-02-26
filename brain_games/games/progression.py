@@ -5,9 +5,7 @@ from brain_games.cli import is_correct
 from brain_games.cli import is_wrong_answer
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
-
-
-NUMBER_OF_ATTEPTS = 3
+from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
 def is_random():
@@ -32,7 +30,7 @@ def arifmetic_progression():
 
 def is_progression():
     print('What number is missing in the progression?')
-    for i in range(NUMBER_OF_ATTEPTS):
+    for _ in range(NUMBER_OF_ATTEPTS):
         is_question(arifmetic_progression())
         print(is_answer(), end='')
         entered_response = input()
