@@ -8,15 +8,20 @@ from brain_games.cli import congratulate_user
 from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
+def is_random():
+    digit_random = randint(1, 50)
+    return digit_random
+
+
 def random_expression():
-    first_number = randint(1, 30)
-    second_number = randint(1, 15)
-    list_arithmetic_operations = ['+', '-', '*']
-    arithmetic_operation = list_arithmetic_operations[
-        randint(0, len(list_arithmetic_operations) - 1)]
-    global arithmetic_expression
-    arithmetic_expression = f"{first_number} {arithmetic_operation} {second_number}"
-    return arithmetic_expression
+    digit_1 = is_random()
+    digit_2 = is_random()
+    arithmetic_operations = ['+', '-', '*']
+    random_index = randint(0, len(arithmetic_operations) - 1)
+    arithmetic_operation = arithmetic_operations[random_index]
+    global expression
+    expression = f"{digit_1} {arithmetic_operation} {digit_2}"
+    return expression
 
 
 def is_calc():
@@ -25,10 +30,10 @@ def is_calc():
         is_question(random_expression())
         print(is_answer(), end='')
         entered_response = input()
-        if int(entered_response) == eval(arithmetic_expression):
+        if int(entered_response) == eval(expression):
             is_correct()
         else:
-            is_wrong_answer(entered_response, eval(arithmetic_expression))
+            is_wrong_answer(entered_response, eval(expression))
             try_again_user()
             break
     else:
