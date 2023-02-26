@@ -1,14 +1,14 @@
 from random import randint
-from brain_games.cli import is_question
-from brain_games.cli import is_answer
-from brain_games.cli import is_correct
-from brain_games.cli import is_wrong_answer
+from brain_games.cli import ask_question
+from brain_games.cli import enter_response
+from brain_games.cli import confirm_response
+from brain_games.cli import report_an_error
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
 from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
-def random_digit():
+def get_random_number():
     global digit
     digit = randint(1, 100)
     return digit
@@ -27,13 +27,13 @@ def play_prime():
 def is_prime():
     print('Answer "yes" if given number is prime. Otherwise answer "no"')
     for _ in range(NUMBER_OF_ATTEPTS):
-        is_question(random_digit())
-        print(is_answer(), end='')
+        ask_question(get_random_number())
+        print(enter_response(), end='')
         entered_response = input()
         if entered_response == play_prime():
-            is_correct()
+            confirm_response()
         else:
-            is_wrong_answer(entered_response, play_prime())
+            report_an_error(entered_response, play_prime())
             try_again_user()
             break
     else:
