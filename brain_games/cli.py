@@ -1,6 +1,9 @@
 import prompt
 
 
+NUMBER_OF_ATTEPTS = 3
+
+
 def welcome_user():
     print("Welcome to the Brain Games!")
     global name
@@ -40,6 +43,7 @@ def main():
     congratulate_user()
     is_wrong_answer()
     try_again_user()
+    NUMBER_OF_ATTEPTS
 
 
 if __name__ == "__main__":
