@@ -2,12 +2,12 @@
 
 
 from brain_games.cli import welcome_user
-from brain_games.games.even import is_even
+from brain_games.games.even import play_even
 
 
 def main():
     welcome_user()
-    is_even()
+    play_even()
 
 
 if __name__ == '__main__':
