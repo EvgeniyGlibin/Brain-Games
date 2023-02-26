@@ -1,14 +1,14 @@
 from random import randint
-from brain_games.cli import is_question
-from brain_games.cli import is_answer
-from brain_games.cli import is_correct
-from brain_games.cli import is_wrong_answer
+from brain_games.cli import ask_question
+from brain_games.cli import enter_response
+from brain_games.cli import confirm_response
+from brain_games.cli import report_an_error
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
 from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
-def is_random():
+def get_random_number():
     digit_random_1 = randint(1, 100)
     digit_random_2 = randint(1, 100)
     global digit_random
@@ -36,24 +36,16 @@ def is_list(index_list_0=[], index_list_1=[]):
 def is_gcd():
     print('Find the greatest common divisor of given numbers.')
     for _ in range(NUMBER_OF_ATTEPTS):
-        is_question(is_random())
+        ask_question(get_random_number())
         lst_digit = digit_random.split()
         correct_answer = is_list(lst_digit[0], lst_digit[1])
-        print(is_answer(), end='')
+        print(enter_response(), end='')
         entered_response = input()
         if int(entered_response) == correct_answer:
-            is_correct()
+            confirm_response()
         else:
-            is_wrong_answer(entered_response, correct_answer)
+            report_an_error(entered_response, correct_answer)
             try_again_user()
             break
     else:
         congratulate_user()
-
-
-def main():
-    is_random()
-
-
-if __name__ == '__main__':
-    main()
