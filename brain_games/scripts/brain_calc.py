@@ -2,12 +2,12 @@
 
 
 from brain_games.cli import welcome_user
-from brain_games.games.calc import is_calc
+from brain_games.games.calc import run_calculator
 
 
 def main():
     welcome_user()
-    is_calc()
+    run_calculator()
 
 
 if __name__ == '__main__':
