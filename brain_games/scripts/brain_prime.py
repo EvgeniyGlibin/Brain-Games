@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
 
+from brain_games.cli import welcome_user
 from brain_games.games.prime import is_prime
-from brain_games.games.prime import play_prime
+
 
 def main():
+    welcome_user()
     is_prime()
-    print(play_prime(2))
 
 
 if __name__ == "__main__":
