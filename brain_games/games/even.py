@@ -5,6 +5,7 @@ from brain_games.cli import is_correct
 from brain_games.cli import is_wrong_answer
 from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
+from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
 def random_digit():
@@ -23,14 +24,12 @@ def play_even():
 
 def is_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    count = 3
-    while count > 0:
+    for _ in range(NUMBER_OF_ATTEPTS):
         is_question(random_digit())
         print(is_answer(), end='')
         entered_response = input()
         if entered_response == play_even():
             is_correct()
-            count -= 1
         else:
             is_wrong_answer(entered_response, play_even())
             try_again_user()
