@@ -36,13 +36,3 @@ def play_even():
             break
     else:
         congratulate_user()
-
-
-def main():
-    get_random_number()
-    check_parity()
-    play_even()
-
-
-if __name__ == '__main__':
-    main()

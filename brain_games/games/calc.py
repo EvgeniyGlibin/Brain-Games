@@ -38,12 +38,3 @@ def run_calculator():
             break
     else:
         congratulate_user()
-
-
-def main():
-    run_calculator()
-    set_expression()
-
-
-if __name__ == "__main__":
-    main()
