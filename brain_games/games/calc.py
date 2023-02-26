@@ -7,6 +7,7 @@ from brain_games.cli import try_again_user
 from brain_games.cli import congratulate_user
 from brain_games.cli import NUMBER_OF_ATTEPTS
 
+
 def random_expression():
     first_number = randint(1, 30)
     second_number = randint(1, 15)
