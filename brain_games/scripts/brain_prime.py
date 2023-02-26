@@ -2,12 +2,12 @@
 
 
 from brain_games.cli import welcome_user
-from brain_games.games.prime import is_prime
+from brain_games.games.prime import play_prime
 
 
 def main():
     welcome_user()
-    is_prime()
+    play_prime()
 
 
 if __name__ == "__main__":

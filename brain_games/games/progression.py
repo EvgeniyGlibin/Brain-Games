@@ -13,7 +13,7 @@ def get_random_number():
     return digit_random
 
 
-def arifmetic_progression():
+def get_the_progression():
     first_element = get_random_number()
     second_element = get_random_number()
     step_progression = second_element - first_element
@@ -28,10 +28,10 @@ def arifmetic_progression():
     return ' '.join(list_of_elements)
 
 
-def is_progression():
+def play_progression():
     print('What number is missing in the progression?')
     for _ in range(NUMBER_OF_ATTEPTS):
-        ask_question(arifmetic_progression())
+        ask_question(get_the_progression())
         print(enter_response(), end='')
         entered_response = input()
         if entered_response == hidden_element:
