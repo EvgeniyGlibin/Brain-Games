@@ -38,7 +38,7 @@ def play_progression():
             confirm_response()
         else:
             report_an_error(entered_response, hidden_element)
-            try_again_user
+            try_again_user()
             break
     else:
         congratulate_user()
