@@ -25,7 +25,7 @@ def check_the_number_prime():
 
 
 def play_prime():
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for _ in range(NUMBER_OF_ATTEPTS):
         ask_question(get_random_number())
         print(enter_response(), end='')
