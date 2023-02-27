@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 from brain_games.cli import welcome_user
-from brain_games.games.gcd import is_gcd
+from brain_games.games.gcd import play_gcd
 
 
 def main():
     welcome_user()
-    is_gcd()
+    play_gcd()
 
 
 if __name__ == '__main__':
