@@ -1,8 +1,18 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.7.1"
+version = "0.7.2"
 description = ""
 authors = ["Evgeniy Glibin <evgeniyglibin95@gmail.com>"]
+repository = "https://github.com/EvgeniyGlibin/python-project-49"
+classifiers = [
+    "Development Status :: 0.7.2 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX",
+    "Programming Language :: Python",
+    "Topic :: Games :: Brain-games",
+]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
