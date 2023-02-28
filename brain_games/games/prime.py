@@ -19,7 +19,7 @@ def check_the_number_prime():
     for i in range(2, digit // 2 + 1):
         if digit % i == 0:
             count += 1
-    if count == 0:
+    if count == 0 and digit != 1:
         return 'yes'
     return 'no'
 
