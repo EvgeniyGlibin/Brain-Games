@@ -6,13 +6,25 @@ NUMBER_OF_ATTEPTS = 3
 
 def welcome_user():
     print("Welcome to the Brain Games!")
+    # global name
+    # name = prompt.string('May I have your name? ')
+    # print(f'Hello, {name}!')
+
+def enter_name():
     global name
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    # return name
 
 
 def ask_question(condition='question'):
     print(f'Question: {condition}')
+
+
+def enter_answer():
+    global entered_answer
+    entered_answer = prompt.string('Your answer: ')
+    return entered_answer
 
 
 def enter_response():
