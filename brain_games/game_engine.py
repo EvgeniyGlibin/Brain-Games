@@ -9,7 +9,7 @@ def start_game(game):
     cli.enter_name()
     print(game.GAME_DESCRIPTION)
     for _ in range(NUMBER_OF_ATTEPTS):
-        question_game, correct_answer = game.check_parity()
+        question_game, correct_answer = game.play_the_game()
         cli.ask_question(question_game)
         entered_answer = cli.enter_answer()
         if entered_answer == correct_answer:
