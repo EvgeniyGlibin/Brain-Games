@@ -4,7 +4,7 @@ from random import randint
 GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def check_parity():
+def play_the_game():
     random_digit = randint(1, 100)
     answer = random_digit % 2
     if answer == 1:
@@ -15,7 +15,7 @@ def check_parity():
 
 
 def main():
-    check_parity()
+    play_the_game()
 
 
 if __name__ == "__main__":
