@@ -1,68 +1,25 @@
-import prompt
-# import brain_games.games.even
-# from random import randint
-# from brain_games.cli import ask_question
-from brain_games.cli import enter_answer
-# from brain_games.cli import entered_answer
-from brain_games.cli import confirm_response
-from brain_games.cli import report_an_error
-from brain_games.cli import try_again_user
-from brain_games.cli import congratulate_user
-# from brain_games.cli import NUMBER_OF_ATTEPTS
-from brain_games.games.even import show_game_description
-from brain_games.cli import welcome_user
-from brain_games.cli import enter_name
+from brain_games import cli
 
 
-GAME_DESCRIPTION = 'DDDescription'
 NUMBER_OF_ATTEPTS = 3
 
 
-# def welcome_user():
-#     print("Welcome to the Brain Games!")
-
-
-# def enter_name():
-#     global name
-#     name = prompt.string('May I have your name? ')
-#     print(f'Hello, {name}!')
-    
-
-# def show_game_description():
-    # return GAME_DESCRIPTION
-
-
-def ask_question(condition='question'):
-    print(f'Question: {condition}')
-
-
-# def enter_answer():
-#     global entered_answer
-#     entered_answer = prompt.string('Your answer: ')
-#     # return entered_answer
-
-
-
 def start_game(game):
-    welcome_user()
-    enter_name()
-    print(show_game_description(game))
-    print()
+    cli.welcome_user()
+    cli.enter_name()
+    print(game.GAME_DESCRIPTION)
     for _ in range(NUMBER_OF_ATTEPTS):
         question_game, correct_answer = game.check_parity()
-        print(question_game)
-        print(correct_answer)
-        ask_question(question_game)
-        if enter_answer() == correct_answer:
-            confirm_response()
+        cli.ask_question(question_game)
+        entered_answer = cli.enter_answer()
+        if entered_answer == correct_answer:
+            cli.confirm_response()
         else:
-            report_an_error('пример', correct_answer)
-            try_again_user()
+            cli.report_an_error(entered_answer, correct_answer)
+            cli.try_again_user()
             break
-    congratulate_user()
-
-
-
+    else:
+        cli.congratulate_user()
 
 
 def main():
