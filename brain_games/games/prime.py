@@ -2,10 +2,6 @@ from random import randint
 
 
 GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-def get_random_number():
-    global digit
-    digit = randint(1, 100)
-    return digit
 
 
 def play_the_game():
