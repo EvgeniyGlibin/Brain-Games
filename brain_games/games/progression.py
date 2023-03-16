@@ -1,17 +1,9 @@
 from random import randint
-# from brain_games.cli import ask_question
-# from brain_games.cli import enter_response
-# from brain_games.cli import confirm_response
-# from brain_games.cli import report_an_error
-# from brain_games.cli import try_again_user
-# from brain_games.cli import congratulate_user
-# from brain_games.cli import NUMBER_OF_ATTEPTS
 
 
 GAME_DESCRIPTION = 'What number is missing in the progression?'
 MIN_LENGTH_PROGRESSION = 5
 MAX_LENGTH_PROGRESSION = 10
-
 
 
 def get_random_number():
@@ -33,19 +25,3 @@ def play_the_game():
     question = ' '.join(list_of_elements)
     correct_answer = hidden_element
     return question, correct_answer
-
-
-# def play_progression():
-#     print('What number is missing in the progression?')
-#     for _ in range(NUMBER_OF_ATTEPTS):
-#         ask_question(get_the_progression())
-#         print(enter_response(), end='')
-#         entered_response = input()
-#         if entered_response == hidden_element:
-#             confirm_response()
-#         else:
-#             report_an_error(entered_response, hidden_element)
-#             try_again_user()
-#             break
-#     else:
-#         congratulate_user()
