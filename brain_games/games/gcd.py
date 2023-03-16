@@ -14,7 +14,7 @@ def get_divisors(number):
     for i in range(1, number // 2 + 1):
         if number % i == 0:
             list_of_divisors.append(i)
-    list_divisors =  sorted(list_of_divisors)
+    list_divisors = sorted(list_of_divisors)
     return list_divisors
 
 
