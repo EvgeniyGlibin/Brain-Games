@@ -1,11 +1,12 @@
 from brain_games import cli
+from brain_games.cli import welcome_user
 
 
 NUMBER_OF_ATTEPTS = 3
 
 
 def start_game(game):
-    cli.welcome_user()
+    welcome_user()
     cli.enter_name()
     print(game.GAME_DESCRIPTION)
     for _ in range(NUMBER_OF_ATTEPTS):
