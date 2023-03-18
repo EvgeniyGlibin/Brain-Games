@@ -30,20 +30,21 @@ Python версия не ниже 3.6
 
 
 #asciinema of the game "brain-even"
-https://asciinema.org/a/9y1qdfwymdp584a7gzhpyEAVV
-<a href="https://asciinema.org/a/562927" target="_blank"><img src="https://asciinema.org/a/562927.svg" /></a>
+https://asciinema.org/a/568073
+<a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
 
 #asciinema of the game "brain-calc"
-https://asciinema.org/a/fNifawQY5gcwO7hfIWmz0qwE7
-
-[![asciicast](https://asciinema.org/a/562927.svg)](https://asciinema.org/a/562927)
+ https://asciinema.org/a/568075
+<a href="https://asciinema.org/a/568075" target="_blank"><img src="https://asciinema.org/a/568075.svg" /></a>
 
 #asciinema of the game "brain-gcd"
-https://asciinema.org/a/QWb8cSeKu4ZJ4JVHdjAfvzSDg
+https://asciinema.org/a/568076
+<a href="https://asciinema.org/a/568076" target="_blank"><img src="https://asciinema.org/a/568076.svg" /></a>
 
 #asciinema of the game "brain-progression"
-https://asciinema.org/a/G8hBsdA8z3XAexeKF01jz2TMC
+https://asciinema.org/a/568077
+<a href="https://asciinema.org/a/568077" target="_blank"><img src="https://asciinema.org/a/568077.svg" /></a>
 
 #asciinema of the game "brain-prime"
-https://asciinema.org/a/sf2PyDlBF9spukHtNtNhb0Xam
-<script async id="asciicast-562927" src="https://asciinema.org/a/562927.js"></script>
+https://asciinema.org/a/568078
+<a href="https://asciinema.org/a/568078" target="_blank"><img src="https://asciinema.org/a/568078.svg" /></a>
