@@ -29,17 +29,19 @@ Python версия не ниже 3.6
 <a href="https://codeclimate.com/github/EvgeniyGlibin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/76bb012a6e268f814867/maintainability" /></a>
 
 
-Установка и запуск игры "brain-even"
+### Установка и запуск игры "brain-even"
+fdfggd
+dfdf
 <a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
 
-Запуск игры "brain-calc"
+### Запуск игры "brain-calc"
 <a href="https://asciinema.org/a/568075" target="_blank"><img src="https://asciinema.org/a/568075.svg" /></a>
 
-Запуск игры "brain-gcd"
+### Запуск игры "brain-gcd"
 <a href="https://asciinema.org/a/568076" target="_blank"><img src="https://asciinema.org/a/568076.svg" /></a>
 
-Запуск игры "brain-progression"
+### Запуск игры "brain-progression"
 <a href="https://asciinema.org/a/568077" target="_blank"><img src="https://asciinema.org/a/568077.svg" /></a>
 
-Запуск игры "brain-prime"
+### Запуск игры "brain-prime"
 <a href="https://asciinema.org/a/568078" target="_blank"><img src="https://asciinema.org/a/568078.svg" /></a>
