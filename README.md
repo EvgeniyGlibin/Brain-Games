@@ -1,4 +1,4 @@
-<!--Проект "Игры разума".
+Проект "Игры разума".
 
 Вас приветствует консольная игра "Игры разума". Данная игра состоит из пяти мини-игр таких как: 
 1."Проверка на чётность" (brain-even);
@@ -21,7 +21,7 @@ Python версия не ниже 3.6
 2.Запустить желаемую мини-игру можно при помощи соответствующей мини-игре "команде". Например: Мини-игра "Проверка на чётность" запускается по команде - "brain-even".
 При запуске игры необходимо ввести своё имя, после чего будет выведена краткая инструкция по игре и вам будет задан вопрос. Вам необходимо определить правильный ответ и ввести его в графе "Question". В случае если ваш ответ оказалься правильным, вы увидите соответствующее описание, и вам будет задан еще один вопрос. Игра считается пройденной, если вы ответили правильно 3 раза. В случае неправильного ответа, игра оповестит вас об ошибке и покажет правильный ответ, при этом игра автоматически завершится.
 
-Для каждой мини-игры имеется своя asciinema (запись игры). Для просмотра, необходимо пройти по соответсвующей ссылке, которые размещены в конце данного файла. -->
+Для каждой мини-игры имеется своя asciinema (запись игры), которые размещены в конце данного файла.
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
@@ -32,18 +32,14 @@ Python версия не ниже 3.6
 Установка и запуск игры "brain-even"
 <a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
 
-#asciinema of the game "brain-calc"
- https://asciinema.org/a/568075
+Запуск игры "brain-calc"
 <a href="https://asciinema.org/a/568075" target="_blank"><img src="https://asciinema.org/a/568075.svg" /></a>
 
-#asciinema of the game "brain-gcd"
-https://asciinema.org/a/568076
+Запуск игры "brain-gcd"
 <a href="https://asciinema.org/a/568076" target="_blank"><img src="https://asciinema.org/a/568076.svg" /></a>
 
-#asciinema of the game "brain-progression"
-https://asciinema.org/a/568077
+Запуск игры "brain-progression"
 <a href="https://asciinema.org/a/568077" target="_blank"><img src="https://asciinema.org/a/568077.svg" /></a>
 
-#asciinema of the game "brain-prime"
-https://asciinema.org/a/568078
+Запуск игры "brain-prime"
 <a href="https://asciinema.org/a/568078" target="_blank"><img src="https://asciinema.org/a/568078.svg" /></a>
