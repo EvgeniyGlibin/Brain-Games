@@ -29,8 +29,7 @@ Python версия не ниже 3.6
 <a href="https://codeclimate.com/github/EvgeniyGlibin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/76bb012a6e268f814867/maintainability" /></a>
 
 
-#asciinema of the game "brain-even"
-https://asciinema.org/a/568073
+Установка и запуск игры "brain-even"
 <a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
 
 #asciinema of the game "brain-calc"
