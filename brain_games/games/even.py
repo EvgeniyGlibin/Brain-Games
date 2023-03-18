@@ -11,7 +11,8 @@ def play_the_game():
         answer_game = 'no'
     if answer == 0:
         answer_game = 'yes'
-    return random_digit, answer_game
+    return random_digit, answer_game    
+   
 
 
 def main():
