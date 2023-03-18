@@ -43,3 +43,4 @@ https://asciinema.org/a/G8hBsdA8z3XAexeKF01jz2TMC
 
 #asciinema of the game "brain-prime"
 https://asciinema.org/a/sf2PyDlBF9spukHtNtNhb0Xam
+<script async id="asciicast-sf2PyDlBF9spukHtNtNhb0Xam" src="https://asciinema.org/a/sf2PyDlBF9spukHtNtNhb0Xam.js"></script>
