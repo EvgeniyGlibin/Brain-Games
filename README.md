@@ -30,8 +30,6 @@ Python версия не ниже 3.6
 
 
 ### Установка и запуск игры "brain-even"
-fdfggd
-dfdf
 <a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
 
 ### Запуск игры "brain-calc"
