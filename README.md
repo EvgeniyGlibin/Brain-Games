@@ -31,9 +31,12 @@ Python версия не ниже 3.6
 
 #asciinema of the game "brain-even"
 https://asciinema.org/a/9y1qdfwymdp584a7gzhpyEAVV
+<a href="https://asciinema.org/a/562927" target="_blank"><img src="https://asciinema.org/a/562927.svg" /></a>
 
 #asciinema of the game "brain-calc"
 https://asciinema.org/a/fNifawQY5gcwO7hfIWmz0qwE7
+
+[![asciicast](https://asciinema.org/a/562927.svg)](https://asciinema.org/a/562927)
 
 #asciinema of the game "brain-gcd"
 https://asciinema.org/a/QWb8cSeKu4ZJ4JVHdjAfvzSDg
@@ -43,4 +46,4 @@ https://asciinema.org/a/G8hBsdA8z3XAexeKF01jz2TMC
 
 #asciinema of the game "brain-prime"
 https://asciinema.org/a/sf2PyDlBF9spukHtNtNhb0Xam
-<script async id="asciicast-sf2PyDlBF9spukHtNtNhb0Xam" src="https://asciinema.org/a/sf2PyDlBF9spukHtNtNhb0Xam.js"></script>
+<script async id="asciicast-562927" src="https://asciinema.org/a/562927.js"></script>
