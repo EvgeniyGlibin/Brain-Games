@@ -1,25 +1,23 @@
 Проект "Игры разума".
 
 Вас приветствует консольная игра "Игры разума". Данная игра состоит из пяти мини-игр таких как: 
-1."Проверка на чётность" (brain-even);
-2."Калькулятор" (brain-calc);
-3."НОД" - Наибольший общий делитель (brain-gcd);
-4."Арифметическая прогрессия" (brain-progression);
-5."Простое ли число?" (brain-prime);
+1."Проверка на чётность" (brain-even);<br>
+2."Калькулятор" (brain-calc);<br>
+3."НОД" - Наибольший общий делитель (brain-gcd);<br>
+4."Арифметическая прогрессия" (brain-progression);<br>
+5."Простое ли число?" (brain-prime).
 
-Минимальные требования:
-Python версия не ниже 3.6
+Минимальные требования:<br>
+Python версия не ниже 3.6<br>
 Свежая версия pip (package installer for Python)
 
-Для начала игры необходимо:
-1.Установить игру:
-в консоли ввести команду: "python3 -m pip install --user git+https://github.com/EvgeniyGlibin/python-project-49.git"
+Для начала игры необходимо:<br>
+1.Установить игру:<br>
+-в консоли ввести команду: "python3 -m pip install --user git+https://github.com/EvgeniyGlibin/python-project-49.git"
 
-2.Запустить желаемую мини-игру можно при помощи соответствующей мини-игре "команде". Например: Мини-игра "Проверка на чётность" запускается по команде - "brain-even".
-Команды вводятся в консоли.
+2.Запустить желаемую мини-игру можно при помощи соответствующей мини-игре "команде". Например: Мини-игра "Проверка на чётность" запускается по команде - "brain-even".<br>
 При запуске игры необходимо ввести своё имя, после чего будет выведена краткая инструкция по игре и вам будет задан вопрос. Вам необходимо определить правильный ответ и ввести его в графе "Question". В случае если ваш ответ оказалься правильным, вы увидите соответствующее описание, и вам будет задан еще один вопрос. Игра считается пройденной, если вы ответили правильно 3 раза. В случае неправильного ответа, игра оповестит вас об ошибке и покажет правильный ответ, при этом игра автоматически завершится.
 
-Для каждой мини-игры имеется своя запись игры, которые размещены в конце данного файла.
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
@@ -27,6 +25,8 @@ Python версия не ниже 3.6
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/linter-check/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
 ###
 <a href="https://codeclimate.com/github/EvgeniyGlibin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/76bb012a6e268f814867/maintainability" /></a>
+
+<p><strong>Видеоиструкции по установке и запуске игр:</strong></p>
 
 ### Установка и запуск игры "brain-even"
 <a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
