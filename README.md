@@ -23,14 +23,12 @@ Python версия не ниже 3.6
 
 Для каждой мини-игры имеется своя asciinema (запись игры), которые размещены в конце данного файла.
 
-### Hexlet tests:
+### Hexlet tests and linter status:
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
 
-<a href="https://codeclimate.com/github/EvgeniyGlibin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/76bb012a6e268f814867/maintainability" /></a>
-
-### Linter status:
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/test_lint/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
 
+<a href="https://codeclimate.com/github/EvgeniyGlibin/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/76bb012a6e268f814867/maintainability" /></a>
 
 ### Установка и запуск игры "brain-even"
 <a href="https://asciinema.org/a/568073" target="_blank"><img src="https://asciinema.org/a/568073.svg" /></a>
