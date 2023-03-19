@@ -14,7 +14,7 @@ Python версия не ниже 3.6<br>
 
 Для начала игры необходимо:<br>
 1.Установить игру:<br>
--в консоли ввести команду:  <p dir="ltr"><li><em>python3 -m pip install --user git+https://github.com/EvgeniyGlibin/python-project-49.git</em></li></p>
+-в консоли ввести команду:  <p"><li><em>python3 -m pip install --user git+https://github.com/EvgeniyGlibin/python-project-49.git</em></li></p>
 
 2.Запустить игру.<br>
 Для запуска желаемой консольной игры, необходимо ввести соответствующую игре "команду".<br>
