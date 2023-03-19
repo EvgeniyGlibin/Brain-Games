@@ -1,4 +1,4 @@
-# file: .github/workflows/hello-world.yml
+
 name: test_lint
 # on – определяет события, которые запускают воркфлоу
 on: push
@@ -13,7 +13,6 @@ jobs:
       # checkout – клонирует репозиторий
       - uses: actions/checkout@v3
       # run – произвольная bash-команда
-      # ls -la выведет содержимое текущего репозитория
       - run: python -m pip install --upgrade pip
              pip install flake8
       - name: Lint with flake8
