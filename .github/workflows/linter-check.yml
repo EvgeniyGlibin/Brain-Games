@@ -1,5 +1,5 @@
 
-name: test_lint
+name: linter-check
 # on – определяет события, которые запускают воркфлоу
 on: push
 jobs:
