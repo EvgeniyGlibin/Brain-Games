@@ -2,13 +2,13 @@ from brain_games.cli import welcome_user
 import prompt
 
 
-NUMBER_OF_ATTEPTS = 3
+NUMBER_OF_ROUNDS = 3
 
 
 def start_game(game):
     name = welcome_user()
     print(game.GAME_DESCRIPTION)
-    for _ in range(NUMBER_OF_ATTEPTS):
+    for _ in range(NUMBER_OF_ROUNDS):
         question_game, correct_answer = game.play_the_game()
         print(f'Question: {question_game}')
         entered_answer = prompt.string('Your answer: ')
