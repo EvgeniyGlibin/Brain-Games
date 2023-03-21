@@ -1,26 +1,26 @@
-from brain_games import cli
 from brain_games.cli import welcome_user
+import prompt
 
 
 NUMBER_OF_ATTEPTS = 3
 
 
 def start_game(game):
-    welcome_user()
-    # cli.enter_name()
+    name = welcome_user()
     print(game.GAME_DESCRIPTION)
     for _ in range(NUMBER_OF_ATTEPTS):
         question_game, correct_answer = game.play_the_game()
-        cli.ask_question(question_game)
-        entered_answer = cli.enter_answer()
+        print(f'Question: {question_game}')
+        entered_answer = prompt.string('Your answer: ')
         if entered_answer == correct_answer:
-            cli.confirm_response()
+            print('Correct!')
         else:
-            cli.report_an_error(entered_answer, correct_answer)
-            cli.try_again_user()
+            print(f"'{entered_answer}' is wrong answer ;(.", end=' ')
+            print(f"Correct answer was '{correct_answer}'.")
+            print(f"Let's try again, {name}!")
             break
     else:
-        cli.congratulate_user()
+        print(f'Congratulations, {name}!')
 
 
 def main():
