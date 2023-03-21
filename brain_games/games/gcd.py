@@ -2,10 +2,11 @@ from random import randint
 
 
 GAME_DESCRIPTION = 'Find the greatest common divisor of given numbers.'
-
+MIN_VALUE = 1
+MAX_VALUE = 50
 
 def get_random_number():
-    digit_random = randint(1, 50)
+    digit_random = randint(MIN_VALUE, MAX_VALUE)
     return digit_random
 
 

@@ -2,10 +2,12 @@ from random import randint
 
 
 GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+MIN_VALUE = 1
+MAX_VALUE = 100
 
 
 def play_the_game():
-    random_digit = randint(1, 100)
+    random_digit = randint(MIN_VALUE, MAX_VALUE)
     answer = random_digit % 2
     if answer == 1:
         answer_game = 'no'
