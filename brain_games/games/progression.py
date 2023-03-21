@@ -2,26 +2,28 @@ from random import randint
 
 
 GAME_DESCRIPTION = 'What number is missing in the progression?'
+MIN_VALUE = 1
+MAX_VALUE = 50
 MIN_LENGTH_PROGRESSION = 5
 MAX_LENGTH_PROGRESSION = 10
 
 
 def get_random_number():
-    digit_random = randint(1, 50)
+    digit_random = randint(MIN_VALUE, MAX_VALUE)
     return digit_random
 
 
 def play_the_game():
-    first_element = get_random_number()
-    second_element = get_random_number()
-    step_progression = second_element - first_element
-    list_of_elements = []
+    initial_term = get_random_number()
+    succeeding_term = get_random_number()
+    common_difference = succeeding_term - initial_term
+    arithmetic_progression = []
     for _ in range(randint(MIN_LENGTH_PROGRESSION, MAX_LENGTH_PROGRESSION)):
-        list_of_elements.append(str(first_element))
-        first_element += step_progression
-    random_list_element = randint(0, len(list_of_elements) - 1)
-    hidden_element = list_of_elements.pop(random_list_element)
-    list_of_elements.insert(random_list_element, '..')
-    question = ' '.join(list_of_elements)
+        arithmetic_progression.append(str(initial_term))
+        initial_term += common_difference
+    random_tern = randint(0, len(arithmetic_progression) - 1)
+    hidden_element = arithmetic_progression.pop(random_tern)
+    arithmetic_progression.insert(random_tern, '..')
+    question = ' '.join(arithmetic_progression)
     correct_answer = hidden_element
     return question, correct_answer
