@@ -1,15 +1,10 @@
-from random import randint
+import random
 
 
 GAME_DESCRIPTION = 'Answer "yes" if given number is prime. ' \
     'Otherwise answer "no".'
 MIN_VALUE = 1
 MAX_VALUE = 100
-
-
-def get_random_digit():
-    random_digit = randint(MIN_VALUE, MAX_VALUE)
-    return random_digit
 
 
 def check_for_prime(digit):
@@ -23,7 +18,7 @@ def check_for_prime(digit):
     return answer
 
 
-def play_the_game():
-    question = get_random_digit()
+def get_game_values():
+    question = random.randint(MIN_VALUE, MAX_VALUE)
     correct_answer = check_for_prime(question)
     return question, correct_answer
