@@ -5,11 +5,11 @@ import prompt
 NUMBER_OF_ROUNDS = 3
 
 
-def start_game(game):
+def play_a_game(game):
     name = welcome_user()
     print(game.GAME_DESCRIPTION)
     for _ in range(NUMBER_OF_ROUNDS):
-        question_game, correct_answer = game.play_the_game()
+        question_game, correct_answer = game.get_game_values()
         print(f'Question: {question_game}')
         entered_answer = prompt.string('Your answer: ')
         if entered_answer == correct_answer:
@@ -24,7 +24,7 @@ def start_game(game):
 
 
 def main():
-    start_game()
+    play_a_game()
 
 
 if __name__ == '__main__':
