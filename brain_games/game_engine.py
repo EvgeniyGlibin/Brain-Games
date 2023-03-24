@@ -5,7 +5,7 @@ import prompt
 NUMBER_OF_ROUNDS = 3
 
 
-def play_a_game(game):
+def start_game(game):
     name = welcome_user()
     print(game.GAME_DESCRIPTION)
     for _ in range(NUMBER_OF_ROUNDS):
@@ -24,7 +24,7 @@ def play_a_game(game):
 
 
 def main():
-    play_a_game()
+    start_game()
 
 
 if __name__ == '__main__':
