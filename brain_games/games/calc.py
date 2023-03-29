@@ -16,7 +16,7 @@ def set_expression():
     return expression
 
 
-def get_game_values():
+def get_values():
     question = set_expression()
     correct_answer = str(eval(question))
     return question, correct_answer

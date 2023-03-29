@@ -25,7 +25,7 @@ def check_for_even(digit):
 #         return 'no'
 
 
-def get_game_values():
+def get_values():
     question = get_random_digit()
     # correct_answer = is_even(question)
     # как лучше, через тернарное условие или заменить на функцию is_even()?

@@ -16,7 +16,7 @@ def get_gcd(first_number, second_number):
     return large_number
 
 
-def get_game_values():
+def get_values():
     first_number = random.randint(MIN_VALUE, MAX_VALUE)
     second_number = random.randint(MIN_VALUE, MAX_VALUE)
     question = f'{first_number} {second_number}'
