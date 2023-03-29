@@ -20,7 +20,7 @@ def get_arithmetic_progression():
     return arithmetic_progression
 
 
-def get_game_values():
+def get_values():
     progression = get_arithmetic_progression()
     random_tern = random.randint(0, len(progression) - 1)
     hidden_element = progression.pop(random_tern)
