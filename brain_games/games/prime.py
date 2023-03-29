@@ -8,17 +8,25 @@ MAX_VALUE = 100
 
 
 def check_for_prime(digit):
-    answer = 'no'
+    result = False
     count = 0
     for i in range(2, digit // 2 + 1):
         if digit % i == 0:
             count += 1
     if count == 0 and digit != 1:
-        answer = 'yes'
-    return answer
+        result = True
+    return result
 
 
-def get_game_values():
+def is_even(digit):
+    if check_for_prime(digit):
+        return 'yes'
+    else:
+        return 'no'
+
+
+def get_values():
     question = random.randint(MIN_VALUE, MAX_VALUE)
-    correct_answer = check_for_prime(question)
+    correct_answer = is_even(question)
+    # correct_answer = 'yes' if check_for_prime(question) else 'no'
     return question, correct_answer
