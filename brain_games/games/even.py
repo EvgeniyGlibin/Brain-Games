@@ -6,11 +6,6 @@ MIN_VALUE = 1
 MAX_VALUE = 100
 
 
-def get_random_digit():
-    random_digit = random.randint(MIN_VALUE, MAX_VALUE)
-    return random_digit
-
-
 def check_for_even(digit):
     result = True
     if digit % 2 == 1:
@@ -26,7 +21,7 @@ def check_for_even(digit):
 
 
 def get_values():
-    question = get_random_digit()
+    question = random.randint(MIN_VALUE, MAX_VALUE)
     # correct_answer = is_even(question)
     # как лучше, через тернарное условие или заменить на функцию is_even()?
     correct_answer = 'yes' if check_for_even(question) else 'no'
