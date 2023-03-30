@@ -1,7 +1,7 @@
 import random
 
 
-GAME_DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 MIN_VALUE = 1
 MAX_VALUE = 100
 

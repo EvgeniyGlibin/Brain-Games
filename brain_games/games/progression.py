@@ -1,7 +1,7 @@
 import random
 
 
-GAME_DESCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 MIN_VALUE = 1
 MAX_VALUE = 50
 MIN_LENGTH = 5

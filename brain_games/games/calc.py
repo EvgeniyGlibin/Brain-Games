@@ -1,7 +1,7 @@
 import random
 
 
-GAME_DESCRIPTION = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 MIN_VALUE = 1
 MAX_VALUE = 50
 
