@@ -18,7 +18,7 @@ def check_for_prime(digit):
     return result
 
 
-def is_even(digit):
+def is_prime(digit):
     if check_for_prime(digit):
         return 'yes'
     else:
@@ -27,6 +27,6 @@ def is_even(digit):
 
 def get_values():
     question = random.randint(MIN_VALUE, MAX_VALUE)
-    correct_answer = is_even(question)
+    correct_answer = is_prime(question)
     # correct_answer = 'yes' if check_for_prime(question) else 'no'
     return question, correct_answer
