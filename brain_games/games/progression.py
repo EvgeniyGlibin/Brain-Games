@@ -17,14 +17,18 @@ def get_arithmetic_progression(initial_term, succeeding_term, lenght):
     return arithmetic_progression
 
 
-def get_values():
-    initial_term = random.randint(MIN_VALUE, MAX_VALUE)
-    succeeding_term = random.randint(MIN_VALUE, MAX_VALUE)
-    lenght = random.randint(MIN_LENGTH, MAX_LENGTH)
-    progression = get_arithmetic_progression(initial_term, succeeding_term, lenght)
+def get_desired_progression(progression):
     random_tern = random.randint(0, len(progression) - 1)
     hidden_element = progression[random_tern]
     progression[random_tern] = '..'
-    question = ' '.join(progression)
-    correct_answer = hidden_element
+    set_progression = ' '.join(progression)
+    return set_progression, hidden_element
+
+
+def get_values():
+    initial_term = random.randint(MIN_VALUE, MAX_VALUE)
+    succeeding_term = random.randint(MIN_VALUE, MAX_VALUE)
+    len = random.randint(MIN_LENGTH, MAX_LENGTH)
+    progression = get_arithmetic_progression(initial_term, succeeding_term, len)
+    question, correct_answer = get_desired_progression(progression)
     return question, correct_answer
