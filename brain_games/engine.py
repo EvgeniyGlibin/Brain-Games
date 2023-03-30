@@ -7,7 +7,7 @@ NUMBER_OF_ROUNDS = 3
 
 def play(game):
     name = welcome_user()
-    print(game.GAME_DESCRIPTION)
+    print(game.DESCRIPTION)
     for _ in range(NUMBER_OF_ROUNDS):
         question_game, correct_answer = game.get_values()
         print(f'Question: {question_game}')
