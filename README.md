@@ -23,7 +23,7 @@ Python версия не ниже 3.6<br>
 При запуске игры необходимо ввести своё имя, после чего будет выведена краткая инструкция по игре и вам будет задан вопрос. Вам необходимо определить правильный ответ и ввести его в графе "Question". В случае если ваш ответ оказалься правильным, вы увидите соответствующее описание, и вам будет задан еще один вопрос. Игра считается пройденной, если вы ответили правильно 3 раза. В случае неправильного ответа, игра оповестит вас об ошибке и покажет правильный ответ, при этом игра автоматически завершится.
 
 
-### Hexlet tests and linter status:
+### Logic tests and linter status:
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
 ###
 [![Actions Status](https://github.com/EvgeniyGlibin/python-project-49/workflows/linter-check/badge.svg)](https://github.com/EvgeniyGlibin/python-project-49/actions)
