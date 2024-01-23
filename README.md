@@ -14,7 +14,7 @@ Python версия не ниже 3.6<br>
 
 Для начала игры необходимо:<br>
 1.Установить игру:<br>
--в консоли ввести команду:  <p>python3 -m pip install --user git+https://github.com/EvgeniyGlibin/python-project-49.git</p>
+-в консоли ввести команду:  <p>python3 -m pip install --user git+https://github.com/EvgeniyGlibin/Brain-Games.git</p>
 
 2.Запустить игру.<br>
 Для запуска желаемой консольной игры, необходимо ввести соответствующую игре "команду".<br>
